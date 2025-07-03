@@ -1,0 +1,84 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Love Proposal for Fatma</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      background: linear-gradient(to top right, #ff9a9e, #fad0c4);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      text-align: center;
+    }.container {
+  background: #ffffffcc;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  max-width: 500px;
+  width: 90%;
+  animation: fadeIn 2s ease;
+}
+
+.couple-img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 1.5rem;
+}
+
+.message {
+  font-size: 1.2rem;
+  color: #d6336c;
+  font-weight: 500;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 1.5rem;
+  padding: 0.75rem 1.5rem;
+  background-color: #ff6f91;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #ff4e78;
+}
+
+@keyframes fadeIn {
+  0% {opacity: 0; transform: translateY(-20px);}
+  100% {opacity: 1; transform: translateY(0);}
+}
+
+@media (max-width: 600px) {
+  .message {
+    font-size: 1rem;
+  }
+}
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img class="couple-img" src="https://ibb.co/1GT4vpZc" alt="Couple in Love">
+    <div class="message">
+      Dear Fatma,<br>
+      From the moment I saw you, my heart knew it found its home.<br>
+      You are the melody to my song, the smile to my every morning,<br>
+      and the reason I believe in magic. Will you be mine forever?
+    </div>
+    <button class="btn" onclick="propose()">Say Yes!</button>
+  </div>  <script>
+    function propose() {
+      alert("Fatma, you just made my world brighter! ❤");
+    }
+  </script></body>
+</html>
